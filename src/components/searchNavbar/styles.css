@@ -1,0 +1,22 @@
+.navbarItems {
+  background-color: #021431;
+  padding: 1.3rem 22rem;
+  color: white;
+
+  .navbarLinks {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    justify-content: flex-end;
+  }
+  .navbarLink {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 1.6rem;
+  }
+  .navbarLink:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,81 @@
+.menuNavbar {
+  background-color: #f0f6ff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding: 2.5rem 1rem;
+  font-size: 1.6rem;
+}
+.menuNavbar__logo {
+  background-color: #1076ea;
+  padding: 0.05rem 2rem;
+  border-radius: 0.8rem;
+  font-size: 5.5rem;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.menuNavbar__logo:hover {
+  background-color: #0069e0;
+}
+
+.menuNavbar__items {
+  .menuNavbar__links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+  .menuNavbar__links {
+    text-decoration: none;
+  }
+}
+
+.Links:hover {
+  background-color: #dee5f0;
+}
+.active {
+  text-decoration: none;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  color: white;
+  background-color: #021431;
+  padding: 1rem 1.4rem;
+  border-radius: 1rem;
+}
+.Links {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1rem 1.4rem;
+  border-radius: 1rem;
+  letter-spacing: 0.1rem;
+  color: #396faf;
+}
+
+.menuNavbar__icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menuNavbar__icon1 {
+  font-size: 2.2rem;
+  color: #394e6a;
+}
+
+.menuNavbar__cart-icon {
+  width: 5.2rem;
+  height: 5.2rem;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+
+  .menuNavbar__icon2 {
+    font-size: 3rem;
+    color: #394e6a;
+  }
+}
+
+.menuNavbar__cart-icon:hover {
+  background-color: #cbd5e1;
+}
